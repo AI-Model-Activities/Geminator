@@ -17,12 +17,16 @@ from rich.console import Console
 from rich.syntax import Syntax
 from rich.text import Text
 
+
 # Constants
 
-OUTPUT_DIR = Path("../output")
-PROMPTS_DIR = Path("../prompts")
-LOG_FILE = Path("../geminator.log")
-ENV_FILE = Path("../.env")
+SCRIPT_DIR = Path(__file__).resolve().parent
+BASE_DIR = SCRIPT_DIR.parent
+
+OUTPUT_DIR = BASE_DIR / "output"
+PROMPTS_DIR = BASE_DIR / "prompts"
+LOG_FILE = BASE_DIR / "geminator.log"
+ENV_FILE = BASE_DIR / ".env"
 
 ROLE_PROMPTER = "prompter"
 ROLE_PROGRAMMER = "programmer"
