@@ -21,8 +21,8 @@ from rich.text import Text
 
 OUTPUT_DIR = Path("../output")
 PROMPTS_DIR = Path("../prompts")
-LOG_FILE = Path("geminator.log")
-ENV_FILE = Path(".env")
+LOG_FILE = Path("../geminator.log")
+ENV_FILE = Path("../.env")
 
 ROLE_PROMPTER = "prompter"
 ROLE_PROGRAMMER = "programmer"
