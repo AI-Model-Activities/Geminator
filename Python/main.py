@@ -19,8 +19,8 @@ from rich.text import Text
 
 # Constants
 
-OUTPUT_DIR = Path("output")
-PROMPTS_DIR = Path("prompts")
+OUTPUT_DIR = Path("../output")
+PROMPTS_DIR = Path("../prompts")
 LOG_FILE = Path("geminator.log")
 ENV_FILE = Path(".env")
 
