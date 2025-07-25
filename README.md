@@ -60,7 +60,7 @@ Geminatorは、複数の専門AIエージェント（Prompter, Programmer, Debug
 1. **Geminatorを起動します。**
 
     ```bash
-    python Python/main.py
+    python main.py
     ```
 
 2. **メニューから操作を選択します。**
